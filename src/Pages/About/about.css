@@ -1,0 +1,11 @@
+.elementor a {
+    box-shadow: none;
+    text-decoration: none;
+}
+.ct-button-video1 a {
+    font-size: 16px;
+    padding-left: 28px;
+    padding-right: 68px;
+    line-height: 72px;
+    overflow: visible !important;
+}

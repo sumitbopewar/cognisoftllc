@@ -1,0 +1,27 @@
+[data-bs-theme=dark] .carousel .carousel-indicators [data-bs-target], [data-bs-theme=dark].carousel .carousel-indicators [data-bs-target] {
+  background-color: #f5ecec;
+}
+
+.carousel-indicators {
+  bottom: -30px;
+}
+
+.carousel-caption {
+  right: 0%;
+  bottom: 1.25rem;
+  left: 7%;
+  text-align: left;
+}
+
+.carousel-caption h5, p{
+  color: ghostwhite;
+}
+[data-bs-theme=dark] .carousel .carousel-indicators [data-bs-target], [data-bs-theme=dark].carousel .carousel-indicators [data-bs-target] {
+  background-color: #fff;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}

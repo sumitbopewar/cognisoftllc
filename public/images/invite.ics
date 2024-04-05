@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+TZNAME:IST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20240202T110000
+DTEND;TZID=Asia/Kolkata:20240202T120000
+DTSTAMP:20240201T051947Z
+ORGANIZER;CN=HR ICEICO:mailto:hriceico@gmail.com
+UID:4k9lt78nnk3lf0j2btkdv8tglh@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=sumitbopewar0964@gmail.com;X-NUM-GUESTS=0:mailto:sumitbopewar0964@g
+ mail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=HR ICEICO;X-NUM-GUESTS=0:mailto:hriceico@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=sujitaware2205@gmail.com;X-NUM-GUESTS=0:mailto:sujitaware2205@gmail
+ .com
+X-GOOGLE-CONFERENCE:https://meet.google.com/eog-rwfe-mnc
+X-MICROSOFT-CDO-OWNERAPPTID:868436350
+CREATED:20240201T051946Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/eo
+ g-rwfe-mnc\n\nLearn more about Meet at: https://support.google.com/a/users/
+ answer/9282720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20240201T051946Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Web Development Interview
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

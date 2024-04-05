@@ -1,0 +1,275 @@
+/*👉dt::before{
+    width: 100px;
+    height: 100px;
+    content: "\f116";
+    font-family: FontAwesome;
+    background-image: linear-gradient(#1061df, #00d8ff);
+}
+👈*/
+
+/*👉html {
+    font-size: 100%;
+}👈*/
+
+.cards {
+    width: 100%;
+    height: 100%;
+}
+
+/*👉body {
+    background-color: #F0F6F9;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(243, 235, 235);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}👈*/
+
+/*👉h1,
+h3,
+h5,
+p {
+    color: #003057;
+}
+👈*/
+/*👉h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}👈*/
+
+/*👉h3 {
+    font-size: 1.170rem;
+}
+
+h5 {
+    margin: 0;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+p {
+    font-size: 1rem !important;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+}👈*/
+
+.esc {
+    max-width: 100%;
+    margin: 4rem auto;
+    padding: 0 1rem;
+    /* line-height: 72px; */
+}
+
+.esc__title {
+    width: 100%;
+    margin: 0 auto;
+
+    h1 {
+        text-align: center;
+    }
+}
+
+.esc__cards {
+    margin: 3rem 0;
+}
+
+.cards {
+    display: block;
+}
+
+.card {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0px 1rem 2rem rgba(94, 94, 94, 0.2);
+    margin-bottom: 1rem;
+    transition: all 0.2s ease-in;
+}
+
+.card__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4.250rem;
+    height: 4.250rem;
+    background-color: #f4f4f4;
+    border-radius: 0.375rem;
+    margin-bottom: 1rem;
+}
+
+.card__icon--getting-started {
+    background-color: rgba(0, 158, 140, 0.1);
+}
+
+.card__icon--reinforcement {
+    background-color: rgba(250, 164, 26, 0.1);
+}
+
+.card__icon--support-library {
+    background-color: rgba(0, 98, 155, 0.1);
+}
+
+.card__icon--processing {
+    background-color: rgba(150, 0, 77, 0.1);
+}
+
+.card__icon--absence {
+    background-color: rgba(0, 158, 140, 0.1);
+}
+
+.card__icon--onboarding {
+    background-color: rgba(80, 7, 120, 0.1);
+}
+
+.card__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card__link a {
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+
+.card__arrow {
+    display: inline-block;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid #dbdbdb;
+    height: 0;
+    width: 0;
+    margin-right: 1rem;
+    transition: 0.2s ease;
+}
+
+.card__link:hover .card__arrow {
+    margin: 0 0 0 0.5rem;
+}
+
+@media (min-width: 48rem) {
+    .esc__title {
+        width: percentage(8/12);
+    }
+
+
+    .cards {
+        display: flex;
+        margin: 0 -0.5rem;
+    }
+
+    .card {
+        width: percentage(4/12);
+        margin: 0 0.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card__link {
+        margin-top: auto;
+    }
+
+    .card+.card {
+        margin-top: 0;
+    }
+
+    @supports (display: grid) {
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 2rem;
+            margin: 0;
+        }
+
+        .card {
+            width: auto;
+            margin: 0;
+        }
+    }
+}
+
+.card:nth-child(1),
+.card:nth-child(3) {
+    height: 80%;
+    transition: all 0.2s ease;
+}
+
+.card:nth-child(2) {
+    height: 91%;
+    transition: all 0.4s ease;
+}
+
+.card:nth-child(4),
+.card:nth-child(6) {
+    margin-top: -10%;
+    transition: all .4s ease;
+}
+
+.card:nth-child(5) {
+    margin-top: 1%;
+    height: 84%;
+    transition: all 0.4s ease;
+}
+
+.card:nth-child(1):hover {
+    margin-top: -2%;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+.card:nth-child(4):hover {
+    margin-top: -14%;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+}
+
+.card:nth-child(3):hover {
+    margin-top: -2%;
+    transition: all 0.4s ease-in;
+    cursor: pointer;
+}
+
+.card:nth-child(2):hover {
+    height: 95%;
+    transition: all 0.4s ease-in;
+    cursor: pointer;
+}
+
+.card:nth-child(5):hover {
+    height: 100%;
+    transition: all .4s ease-in;
+    cursor: pointer;
+}
+
+.card:nth-child(6):hover {
+    margin-top: -14%;
+    transition: all 0.4s ease-in;
+    cursor: pointer;
+}
+
+.esc .esc__title .ct-text-inner {
+    color: #0D1422;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.esc .esc__title .ct-text-inner strong {
+    color: #0D1422;
+    font-size: 60px;
+    font-weight: bolder;
+    line-height: 72px;
+    margin-bottom: 28px;
+}
+
+#headings {
+    margin-bottom: 15px;
+    color: #0076F9 !important;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+}

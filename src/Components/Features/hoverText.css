@@ -1,0 +1,10 @@
+#third{
+    /* background: url('/public/images/pexels-photo-1266983.jpeg'); */
+    background: url('/public/images/h8-bg-section-03.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.space-y-6:hover{
+    background-color: rgba(26, 30, 27, 0.882);
+}

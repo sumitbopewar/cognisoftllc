@@ -1,0 +1,76 @@
+.bg-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#ct-pagetitle {
+    background-image: url(https://cognisoftllc.com/wp-content/uploads/2021/09/bg-pagetitle.jpg);
+    height: 50vh;
+    position: relative;
+    display: grid;
+    place-content: center;
+    text-align: center;
+
+}
+
+#ct-pagetitle::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.heading {
+    position: absolute;
+    z-index: 999;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.heading h1 {
+    font-size: 36px;
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* background: linear-gradient(90deg, #b527cf 0%, #3546f0 100%); */
+}
+.rounded-t-lg1, .rounded-t-lg2, .rounded-t-lg3{
+    position: relative;
+}
+
+.ct-breadcrumb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #fff;
+}
+.icons.fa, .fab{
+    position: absolute;
+    left: 25%;
+    width: 65px;
+    background: #f9f4f4;
+    margin-top: -68px;
+    height: 65px;
+    border-radius: 50%; display: flex; justify-content: center; align-items: center; font-size: 25px; 
+}
+.rounded-t-lg:hover, .icons.fa:hover{
+    border: 2px solid #3546f0;
+}
+
+.max-w-sm:hover .rounded-t-lg,
+.max-w-sm:hover .icons.fa:hover {
+    color: white;
+    /* background-color: #3546f0; */
+    transition: 0.3s cubic-bezier(0.24, 0.74, 0.58, 1);
+    background-image: linear-gradient(to bottom, #006cfffc, #1027c0);
+
+}
