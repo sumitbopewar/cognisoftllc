@@ -34,7 +34,7 @@ function About() {
             </ul>
           </div>
         </div>
-
+                {/* main container left section */}
         <div className="container row m-auto p-24">
           <div
             className="left text-center col"
@@ -96,7 +96,7 @@ function About() {
               </span>
             </a>
           </div>
-
+             {/* right section */}
           <div className="right-img col">
             <img
               className="img1"
@@ -106,6 +106,8 @@ function About() {
             />
           </div>
         </div>
+
+                  {/* Cards */}
 
         <div className="container w-100">
           <div
@@ -149,7 +151,7 @@ function About() {
 
             {/* Card2 */}
             <div className="col text-center items-center ">
-              <div class="max-w-sm bg-white border-none rounded-lg  ">
+              <div class="max-w-sm  border-none rounded-lg  ">
                 <a href="#">
                   <img
                     class="rounded-circle ms-auto me-auto"
@@ -185,7 +187,7 @@ function About() {
 
             {/* card3 */}
             <div className="col text-center items-center ">
-              <div class="max-w-sm bg-white border-none  rounded-lg s">
+              <div class="max-w-sm  border-none  rounded-lg s">
                 <a href="#">
                   <img
                     class="rounded-circle ms-auto me-auto"
@@ -222,7 +224,7 @@ function About() {
 
             {/* Card4 */}
             <div className="col text-center items-center ">
-              <div class="max-w-sm bg-white border-none rounded-lg ">
+              <div class="max-w-sm  border-none rounded-lg ">
                 <a href="#">
                   <img
                     class="rounded-circle ms-auto me-auto"
@@ -261,7 +263,7 @@ function About() {
 
             {/* card5 */}
             <div className="col text-center items-center ">
-              <div class="max-w-sm bg-white border-none  rounded-lg ">
+              <div class="max-w-sm  border-none  rounded-lg ">
                 <a href="#">
                   <img
                     class="rounded-circle ms-auto me-auto"
@@ -297,7 +299,7 @@ function About() {
 
             {/* card6 */}
             <div className="col text-center items-center ">
-              <div class="max-w-sm bg-white border-none rounded-lg ">
+              <div class="max-w-sm  border-none rounded-lg ">
                 <a href="#">
                   <img
                     class="rounded-circle ms-auto me-auto"
@@ -333,7 +335,7 @@ function About() {
 
             {/* card7 */}
             <div className="col text-center items-center ">
-              <div class="max-w-sm bg-white border-none  rounded-lg">
+              <div class="max-w-sm  border-none  rounded-lg">
                 <a href="#">
                   <img
                     class="rounded-circle ms-auto me-auto"
@@ -370,7 +372,7 @@ function About() {
 
             {/* card8 */}
             <div className="col text-center items-center ">
-              <div class="max-w-sm bg-white border-none  rounded-lg">
+              <div class="max-w-sm  border-none  rounded-lg">
                 <a href="#">
                   <img
                     class="rounded-circle ms-auto me-auto"
@@ -406,7 +408,7 @@ function About() {
 
             {/* card9 */}
             <div className="col text-center flex justify-center items-center ms-auto me-auto  ">
-              <div class="max-w-sm bg-white border-none rounded-lg ">
+              <div class="max-w-sm  border-none rounded-lg ">
                 <a href="#">
                   <img
                     class="rounded-circle ms-auto me-auto"
