@@ -2,9 +2,9 @@ import React from "react";
 import "./Services.css";
 import Navbar from "../../Components/Header/Navbar";
 import Footer from "../../Components/Footer/Footer";
-import Card from "./ServiceCard/ServiceCard";
 import Sliders from "./Slider/Sliders";
 import TextContent from "./TextContent/TextContent";
+import ServiceCard from "./ServiceCard/ServiceCard";
 // import Slider from 'react-slick'
 
 function Services() {
@@ -60,42 +60,10 @@ function Services() {
         </h1>
       </div>
 
-      {/* Services Cards */}
-      <div className="w-10/12 grid md:grid-cols-2 lg:grid-cols-3 gap-5 m-auto md:p-5 pb-5">
-        <Card
-          title="Resume Preparation"
-          image="images/resume-prep.jpg"
-          desc="We transform your achievements into a powerful narrative, ensuring you stand out to potential employers."
-        />
-        <Card
-          title="LinkedIn Optimization"
-          image="images/linkedin-optimise.jpg"
-          desc="Leveraging the power of LinkedIn to enhance your professional online presence, making you more visible to recruiters and industry professionals."
-        />
-        <Card
-          title="Portfolio Building"
-          image="images/portfolio-build.jpg"
-          desc="Showcasing your work with a personalized online portfolio, complete with a domain of your choice for a lasting and impactful impression."
-        />
-        <Card
-          title="Industrial Technical Training"
-          image="images/industrial-tech-training.jpg"
-          desc="Our industry experts provide hands-on, customized training sessions designed to enhance your skills and expertise."
-        />
-        <Card
-          title="Profile Marketing"
-          image="images/profile-marketing.jpg"
-          desc="Our dedicated profile marketing services at CogniSoft promote your unique talents to top employers."
-        />
-        <Card
-          title="Interview Support"
-          image="images/interview support.jpg"
-          desc="Our comprehensive interview support services at CogniSoft prepare you for various interview scenarios."
-        />
-      </div>
+      <ServiceCard />
 
-      <div class="flex gap-2">
-        <div class="bg-gray-200 p-4">
+      <div class="grid md:grid-cols-2">
+        <div class="bg-gray-200 p-2">
           <Sliders />
         </div>
         <div class="bg-gray-300 p-4">

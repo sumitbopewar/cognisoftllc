@@ -3,15 +3,23 @@
   background-color: #f5ecec;
 }
 
+.carousel{
+  height: 100vh;
+}
+
+.carousel-image{
+  height: 100svh;
+  width: auto;
+}
+
 .carousel-indicators {
   bottom: -30px;
   right: 0px;
 }
 
 .carousel-caption {
-  right: 0%;
+  margin: auto;
   bottom: 1.25rem;
-  left: 7%;
   text-align: left;
 }
 
