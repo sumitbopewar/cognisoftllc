@@ -1,22 +1,49 @@
-[data-bs-theme=dark] .carousel .carousel-indicators [data-bs-target], [data-bs-theme=dark].carousel .carousel-indicators [data-bs-target] {
+[data-bs-theme=dark] .carousel .carousel-indicators [data-bs-target],
+[data-bs-theme=dark].carousel .carousel-indicators [data-bs-target] {
   background-color: #f5ecec;
+}
+
+.carousel {
+  height: 100vh;
+}
+
+.carousel-image {
+  height: 100svh;
+  width: 100%;
 }
 
 .carousel-indicators {
   bottom: -30px;
+  right: 0px;
 }
 
 .carousel-caption {
-  right: 0%;
+  margin: auto;
   bottom: 1.25rem;
-  left: 7%;
   text-align: left;
+  display: flex;
+  flex-direction: column;
 }
 
-.carousel-caption h5, p{
+.carousel-caption h5 {
   color: ghostwhite;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
-[data-bs-theme=dark] .carousel .carousel-indicators [data-bs-target], [data-bs-theme=dark].carousel .carousel-indicators [data-bs-target] {
+
+.carousel-caption p {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.carousel-caption small {
+  color: #0F67F6;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+[data-bs-theme=dark] .carousel .carousel-indicators [data-bs-target],
+[data-bs-theme=dark].carousel .carousel-indicators [data-bs-target] {
   background-color: #fff;
 }
 
