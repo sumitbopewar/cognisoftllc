@@ -66,7 +66,7 @@ function Services() {
         <div class="bg-gray-200 p-2">
           <Sliders />
         </div>
-        <div class="bg-gray-300 p-4">
+        <div class="bg-gray-200 p-4">
           <TextContent />
         </div>
       </div>

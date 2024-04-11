@@ -3,13 +3,13 @@
   background-color: #f5ecec;
 }
 
-.carousel{
+.carousel {
   height: 100vh;
 }
 
-.carousel-image{
+.carousel-image {
   height: 100svh;
-  width: auto;
+  width: 100%;
 }
 
 .carousel-indicators {
@@ -21,11 +21,25 @@
   margin: auto;
   bottom: 1.25rem;
   text-align: left;
+  display: flex;
+  flex-direction: column;
 }
 
-.carousel-caption h5,
-p {
+.carousel-caption h5 {
   color: ghostwhite;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.carousel-caption p {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.carousel-caption small {
+  color: #0F67F6;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 [data-bs-theme=dark] .carousel .carousel-indicators [data-bs-target],

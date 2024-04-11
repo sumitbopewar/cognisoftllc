@@ -10,11 +10,31 @@ function DarkVariantExample() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3 className="">Professional Highly Staffs</h3>
-          <p className="">
+          <small className="font-bold text-base flex">
+            Case Studies
+            <img src="/left.svg" alt="" className="ps-2" />
+          </small>
+          <h5>Professional Highly Staffs</h5>
+          <p className="text-slate-400">
             We deliver best in class web and mobile solutions taht will retain
             the attention of the target audience.
           </p>
+          <a href="#" className="bg-blue-500 rounded-full p-2.5">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={2}
+              stroke="white"
+              className="w-6 h-6"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+              />
+            </svg>
+          </a>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -24,11 +44,31 @@ function DarkVariantExample() {
           alt="Second slide"
         />
         <Carousel.Caption>
-          <h3 className="">Warranty Management IT</h3>
-          <p className="">
+          <small className="font-bold text-base flex">
+            Case Studies
+            <img src="/left.svg" alt="" className="ps-2" />
+          </small>
+          <h5>Warranty Management IT</h5>
+          <p className="text-slate-400">
             Every Company has different networking and security challenges. Our
             assessment reviews your current setup.
           </p>
+          <a href="#" className="bg-blue-500 rounded-full p-2.5">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={2}
+              stroke="white"
+              className="w-6 h-6"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+              />
+            </svg>
+          </a>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -38,11 +78,31 @@ function DarkVariantExample() {
           alt="Third slide"
         />
         <Carousel.Caption>
-          <h3 className="">Infrastructure Technology</h3>
-          <p className="">
+          <small className="font-bold text-base flex">
+            Case Studies
+            <img src="/left.svg" alt="" className="ps-2" />
+          </small>
+          <h5>Infrastructure Technology</h5>
+          <p className="text-slate-400">
             Ten things you should know about an IT provider's managed services.
             See how the other stack up against IT solutions.
           </p>
+          <a href="#" className="bg-blue-500 rounded-full p-2.5">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={2}
+              stroke="white"
+              className="w-6 h-6"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+              />
+            </svg>
+          </a>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -52,11 +112,31 @@ function DarkVariantExample() {
           alt="Third slide"
         />
         <Carousel.Caption>
-          <h3 className="">Information Security</h3>
-          <p className="">
+          <small className="font-bold text-base flex">
+            Case Studies
+            <img src="/left.svg" alt="" className="ps-2" />
+          </small>
+          <h5>Information Security</h5>
+          <p className="text-slate-400">
             Many Managed Services Providers make ambitious promises that they
             fail to deliver. We back up our services.
           </p>
+          <a href="#" className="bg-blue-500 rounded-full p-2.5">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={2}
+              stroke="white"
+              className="w-6 h-6"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+              />
+            </svg>
+          </a>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
